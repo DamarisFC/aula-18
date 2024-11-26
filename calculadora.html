@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+<!--Função calculadora-->
+<label>Digite N1: </label>
+<input type="text" id="idN1"><br>
+<label>Digite N2: </label>
+<input type="text" id="idN2"><br>
+<label>Resposta: </label>
+<label id="idResposta"></label><br>
+<input type="button" value="+"
+    onclick="calculadora(this.value)">
+<input type="button" value="-"
+    onclick="calculadora(this.value)"><br>
+<input type="button" value="*"
+    onclick="calculadora(this.value)">
+<input type="button" value="/"
+    ondblclick="calculadora(this.value)">
+
+<script src="js/calculadora.js"></script>
+</body>
+</html>

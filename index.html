@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 18</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Procedimento sem parametro-->
+    <input type="button" value="Clique aqui"
+        onclick="mostrarAlerta()"><br>
+
+    <!--Procedimento com parametro-->
+    <input type="button" value="Clique aqui1"
+        onclick="mostrarAlerta1('João')"><br>
+
+    <!--função com parametro-->
+    <label>Digite o primeiro número: </label>
+    <input type="number" id="idN1"><br>
+    <label>Digite o segundo número: </label>
+    <input type="number" id="idN2"><br>
+    <input type="button" value="Clique aqui"
+        onclick='idResultado.value =
+        soma(idN1.value, idN2.value)'><br>
+        <label>Resultado: </label>
+        <input type="number" id="idResultado"><br><br>
+
+    <!--Função sem parametro-->
+    <label>Valor: </label>
+    <input type="number"  id="idN"><br>
+    <input type="button" value="Clique aqui"
+        onclick = dobro()><br>
+    <label>Resulta: </label>
+    <label id="idResult"><br><br>
+
+    <a href="calculadora.html">calculadora</a>
+    <script src="js/script.js"></script>
+</body>
+</html>
